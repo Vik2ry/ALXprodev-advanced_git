@@ -1,6 +1,3 @@
-#!/bin/bash
-
-cat << 'EOF' > README.md
 # 🚀 ALXprodev Advanced Git Workflow
 
 ![Git](https://img.shields.io/badge/git-flow-blue?logo=git)
@@ -80,12 +77,6 @@ Prevents commits that don't follow the documentation policy.
 
 Make both hook scripts executable:
 
-\`\`\`bash
+```bash
 chmod +x .git/hooks/pre-commit
 chmod +x .git/hooks/post-merge
-\`\`\`
-
----
-EOF
-
-echo "✅ README.md generated!"
