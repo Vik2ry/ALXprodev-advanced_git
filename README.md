@@ -1,6 +1,3 @@
-#!/bin/bash
-
-cat << 'EOF' > README.md
 # 🚀 ALXprodev Advanced Git Workflow
 
 ![Git](https://img.shields.io/badge/git-flow-blue?logo=git)
@@ -84,5 +81,3 @@ Make both hook scripts executable:
 chmod +x .git/hooks/pre-commit
 chmod +x .git/hooks/post-merge
 \`\`\`
-
----
