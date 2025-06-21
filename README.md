@@ -1,6 +1,3 @@
-#!/bin/bash
-
-cat << 'EOF' > README.md
 # 🚀 ALXprodev Advanced Git Workflow
 
 ![Git](https://img.shields.io/badge/git-flow-blue?logo=git)
